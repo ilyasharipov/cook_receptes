@@ -76,33 +76,33 @@ GET /recipes/:uuid
 
 recipeModel.list
 <code>
-{
-“uuid”: string,
-“name”: string,
-“images”: array,
-“lastUpdated”: integer,
-“description”: string,
-“instructions”: string,
-“difficulty”: integer
-}
+{<br>
+“uuid”: string,<br>
+“name”: string,<br>
+“images”: array,<br>
+“lastUpdated”: integer,<br>
+“description”: string,<br>
+“instructions”: string,<br>
+“difficulty”: integer<br>
+}<br>
 </code>
-recipeModel.details
+recipeModel.details<br>
+<code>
+{<br>
+“uuid”: string,<br>
+“name”: string,<br>
+“images”: array,<br>
+“lastUpdated”: integer,<br>
+“description”: string,<br>
+“instructions”: string,<br>
+“difficulty”: integer,<br>
+“similar”: array<recipeModel.brief><br>
+}<br>
+</code>
+recipeModel.brief<br>
 <code>
 {
-“uuid”: string,
-“name”: string,
-“images”: array,
-“lastUpdated”: integer,
-“description”: string,
-“instructions”: string,
-“difficulty”: integer,
-“similar”: array<recipeModel.brief>
-}
-</code>
-recipeModel.brief
-<code>
-{
-“uuid”: string,
-“name”: string
+“uuid”: string,<br>
+“name”: string<br>
 }
 </code>
