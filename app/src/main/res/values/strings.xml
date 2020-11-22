@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cook recipes</string>
+    <string name="recipe_difficulty">Сomplexity:</string>
+    <string name="connection_lost_error">Connection was lost</string>
+    <string name="connection_lost_error_message">Error connect</string>
+    <string name="ok">Ok</string>
+</resources>
