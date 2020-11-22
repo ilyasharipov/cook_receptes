@@ -75,7 +75,7 @@ GET /recipes/:uuid
 Модели:
 
 recipeModel.list
-
+<code>
 {
 “uuid”: string,
 “name”: string,
@@ -85,9 +85,9 @@ recipeModel.list
 “instructions”: string,
 “difficulty”: integer
 }
-
+</code>
 recipeModel.details
-
+<code>
 {
 “uuid”: string,
 “name”: string,
@@ -98,10 +98,11 @@ recipeModel.details
 “difficulty”: integer,
 “similar”: array<recipeModel.brief>
 }
-
+</code>
 recipeModel.brief
-
+<code>
 {
 “uuid”: string,
 “name”: string
 }
+</code>
